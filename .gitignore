@@ -1,6 +1,8 @@
 *.log
 *.aux
 *.out
+*.bcf
 *.synctex.gz
 *.Rhistory
 *.xml*
+*.ipynb_checkpoints
