@@ -1,3 +1,3 @@
-report goes here.
+# STAT520B Project
 
-compile main.tex to generate the report
+PDF report: [here](doc/main.pdf)
