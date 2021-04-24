@@ -3,5 +3,6 @@
 % Background section
 
 \section{Discussion}
-
+Overall, while variational boosting generally increases the expressibility of the variational family and allows practitioners to trade more computation for better posterior approximations, it is important to address how each of the components are initialized before being optimized. As shown in this report, failure to properly initialize components may cause the mixture approximation to be stuck in a local mode.\\\\
+On the other hand, our proposed extension that further increases the expressibility of the variational family through introducing multiple component distributions do not appear to be superior compared to the standard variational boosting algorithm. However, it is believed that this is due to the poor choice of the mapping that transforms the component distribution's support. It is possible that this idea of considering multiple competing mixture components from different families is advantageous than the standard variational boosting algorithm in other settings. A direction of future work would be to identify the cases where our proposed extension outperforms the standard variational boosting. Further, it is also worth exploring the effect of the different maps that transform the support of the component distributions on our proposed extension. Finally, if considering multiple competing variational families is indeed desirable in some cases, investigations can be made on allowing the different reparameterized distributions to have non-overlapping support.
 % ...
